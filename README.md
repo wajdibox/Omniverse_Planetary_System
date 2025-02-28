@@ -12,7 +12,7 @@
 
 ## 🔹 Installation
 1. **Clone the Repository**:
-git clone https://github.com/YourUsername/Omniverse_Planetary_System.git
+git clone https://github.com/wajdibox/Omniverse_Planetary_System.git
 
 2. **Navigate to the directory**:
 cd Omniverse_Planetary_System
