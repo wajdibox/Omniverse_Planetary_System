@@ -108,9 +108,9 @@ class GearGeneratorApp:
         for param, value in gear_data:
             self.data_frame.insert("", "end", values=(param, round(value, 3)))
         
-        # Generate CLI Command
+        # Generate CLI Command (copy paste this in your IDE while being in the same directory to generate a DXF of the Gear)
         self.cli_command.set(
-            f"python gear_generator.py -c {self.teeth_count.get()} -m {self.module.get()} "
+            f"python gear.py -c {self.teeth_count.get()} -m {self.module.get()} "
             f"-p {self.pressure_angle.get()} -b {self.backlash.get()} "
             f"-x {self.profile_shift.get()} -cf {self.clearance_factor.get()} -n 16 "
             f"-t dxf -o generated_gear.dxf"

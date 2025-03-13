@@ -6,7 +6,7 @@
 - Generate **spur gears** using rack cutting simulation.
 - Adjust parameters like **module, pressure angle, backlash, profile shift, clearance, etc.**.
 - **Real-time visualization** of gear changes.
-- **DXF export** for CAD applications.
+- **DXF export** for CAD applications. (within the same directory)
 - **Interactive UI** for parameter adjustment.
 - Copy CLI commands for **batch processing**.
 
